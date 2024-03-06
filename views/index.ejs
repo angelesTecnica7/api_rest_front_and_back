@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Administración Empleados</title>
+</head>
+<body>
+    <h1>Administración Empleados</h1>
+    <h2>Guardar Nuevos Empleados</h2>
+    <div class="create">
+        <form action= "/addNewEmployees" method="post" id="alta">
+            <input type="text" id="nombre" name="nombreEmpleado" placeholder="Ingrese Nombre del Empleado">
+            <input type="number" id="salario" name="salarioEmpleado" placeholder="Ingrese Salario del Empleado">
+            <button>Guardar Empleado</button>
+        </form>
+    </div>
+    <br>
+    <h2>Listado de Empleados</h2>
+    <div id="empleados"></div>
+    <!-- <script src="./script.js"></script> -->
+</body>
+</html>
